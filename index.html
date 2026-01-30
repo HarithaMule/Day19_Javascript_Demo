@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script>
+        // Prompt the user for their name and marks
+        var userName = prompt("Enter your name:");
+        var marks = parseInt(prompt("Enter your marks:"));
+        //Determine pass / fail
+        var result = (marks>=35)? "Pass" : "Fail";
+        //store subjects in an array
+        var subjects = ["Csharp", "HTML", "CSS", "JavaScript", "SQL"];
+        //Display the results
+        console.log("Student Name:"+userName.toUpperCase());
+        console.log("Marks Obtained:"+marks.toString());
+        console.log("Result:"+result);
+        console.log("Subjects:"+subjects.join(","));
+
+    </script>
+</body>
+</html>
